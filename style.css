@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    /* gap: -50px; */
+}
+.hello{
+    background-color: blue;
+    background-image: linear-gradient(to bottom right,blue,rgb(0, 195, 255),rgb(130, 238, 180),rgb(221, 0, 255));
+    color: azure;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    
+}
+.saleskip{
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 50px;
+margin-top: -40px;
+}   
+.saleskip .hand{
+    margin-top: 60px;
+}
+.hello .skip{
+    margin-left: 120px;
+    margin-right: 120px  ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.hello .ast{
+font-size: 150px;
+margin-top: 50px;
+}
+.skip .copy{
+    margin-top: 150px;
+    color: rgb(115,115,115);
+}
+.signin{
+    width:35vw;
+    margin-right: 70px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.signin .well{
+    font-weight: bold;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+.signin .create{
+    color: rgb(115, 115, 115);
+    margin-bottom: 30px;
+}
+.signin .create a{
+    color: black;
+}
+.signin .input-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.signin .input-box input{
+    width: 390px;
+    height: 25px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-color: rgb(220, 220, 220);
+    outline: none;
+}
+.signin .form .input-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.signin .form .input-box label {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    color: rgb(115, 115, 115);
+    transition: all 0.3s ease;
+    font-size: 14px;
+    pointer-events: none;
+}
+
+.signin .form .input-box input {
+    width: 390px;
+    height: 30px;
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 2px solid rgb(220, 220, 220);
+    outline: none;
+    font-size: 14px;
+}
+
+.signin .form .input-box input:focus + label,
+.signin .form .input-box input:valid + label {
+    top: -10px;
+    left: 5px;
+    font-size: 12px;
+    color: black;
+}
+
+.signin .form .input-box input:focus+label {
+    border-bottom: 2px solid black; 
+    top: -10px;
+    left: 5px;
+    font-size: 12px;
+    color: black;
+}
+
+/* .signin .form .input-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.signin .form .input-box input {
+    width: 390px;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid rgb(220, 220, 220);
+    outline: none;
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+.signin .form .input-box label {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 16px;
+    color: rgb(115, 115, 115);
+    transition: all 0.3s ease; 
+    pointer-events: none; 
+}
+
+.signin .form .input-box input:focus + label,
+.signin .form .input-box input:valid + label {
+    top: -10px;
+    left: 0;
+    font-size: 12px;
+    color: black; 
+} */
+
+/* .signin .form .input-box label{
+position: absolute;
+color: rgb(115,115,115);
+transition: 0.5s;
+font-size: 14px;
+pointer-events: none;
+}
+.signin .form .input-box input:focus+ label,
+.signin .form .input-box input:valid+ label{
+   font-size: 5px;
+   border: solid;
+} */
+.signin .login input{
+    background-color:black;
+    color: beige;
+    width: 390px;
+    height: 25px;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-width: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signin .google{
+    cursor: pointer;    
+}
+.signin .google input{
+    width: 390px;
+    background-color:transparent;
+    border-width: 0px;
+    border-radius: 5px;
+    height: 25px; 
+    box-shadow: 0 1px 50px rgba(0,0,0,0.9);
+    cursor: pointer;  
+}
+.signin .google img{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 4px;
+}
+.signin .forgot{
+    color:rgb(115, 115, 115);
+    margin-top: 25px;
+    margin-left: 120px;
+    font-size: 10px;
+    /* text-align: center; */
+}
+.signin .forgot a{
+    color: black;
+}
